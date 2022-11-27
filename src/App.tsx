@@ -4,10 +4,10 @@ export function App() {
   
   return (
     <div>
-      < Button color='primary'/>
-      < Button color='secondary'/>
-      < Button color='danger'/>
-      < Button color='sucess'/>
+      < Button variant='primary'/>
+      < Button variant='secondary'/>
+      < Button variant='danger'/>
+      < Button variant='sucess'/>
     </div>
   )
 }
