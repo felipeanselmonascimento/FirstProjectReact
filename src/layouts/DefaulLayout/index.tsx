@@ -6,7 +6,9 @@ export function DefaultLayout() {
     return (
         <LayoutContainer>
             <Header />
-            < Outlet />
+            < Outlet /> 
         </LayoutContainer>
     )
 }
+
+ /* aq e oq vai transacionar no caso o Outlet*/
