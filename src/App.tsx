@@ -10,11 +10,13 @@ export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
-      <Router/>     se colocar so o Router vai dar erro entaoo prpecisamos importar o brownserRouter do reactrouterdom e fazer um wrap nele
+      <Router/>
       </BrowserRouter>
       <GlobalStyle />
     </ThemeProvider>
   )
 }
 
+
+// ROUTER se colocar so o Router vai dar erro entaoo prpecisamos importar o brownserRouter do reactrouterdom e fazer um wrap nele
 
